@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+#fotoPerfil {
+  display: flex;
+  margin: auto;
+  width: 15%;
+  height: 15%;
+}
+
+header {
+  background-image: url(/Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  margin: 0%;
+  background-color: #d5b4b4;
+  color: #85586f;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+#navegacion a {
+  padding: 8px;
+  background-color: #85586f;
+  color: white;
+  border-radius: 8px;
+}
+
+#navegacion a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+main {
+  font-family: "Lato", sans-serif;
+}
+
+#ulDatosPersonales {
+  list-style: none;
+}
+
+#ulDatosPersonales span {
+  font-weight: bold;
+}
+
+#ulHabilidadesTecnicas {
+  list-style-type: circle;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8ede3;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#sobreMi p{
+  padding: 4%;
+    width: 50%;
+}
